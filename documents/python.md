@@ -1,7 +1,11 @@
 ## Python
 
+### range
+- 3系の`range()`は2系の`xrange()`、2系の`range()`は3系には存在しない
+
 ### 辞書
 - `iteritems()`はPython3では廃止済み。`items（）`で同じことができる
+- `has_key()`のPython3には存在しない。`key in dict`で同じことができる
 
 tupleからdict
 ```python
