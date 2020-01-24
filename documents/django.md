@@ -1,4 +1,16 @@
 
+## Static files
+
+プロジェクト全体で共通の静的ファイルを参照するには、(1)`settings.py` を以下のように設定して (2)`manage.py`の階層に`static`ディレクトリを置く。app固有の静的ファイルは`app/static`以下に配置して本番環境反映時に一括管理できるようにする。
+
+settings.py
+```python
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
+```
+
+
 ## Django Admin
 
 ### 作成したモデルをadminに表示する方法
