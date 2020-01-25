@@ -7,7 +7,7 @@
 - Frameworks/Libraries
   - [Django](documents/django.md)
   - [Vue.js](documents/vue.md)
-  - [Nuxt.js](documents/nuxt.md)
+  - [Nuxt.js](documents/nuxtjs.md)
 - Languages
   - [Python](documents/python.md)
   - [Java](documents/java.md)
