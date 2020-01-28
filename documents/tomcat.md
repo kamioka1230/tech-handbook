@@ -1,5 +1,14 @@
 ## Tomcat
 
+**xxxxのリソースをキャッシュに追加できませんエントリ - キャッシュの最大サイズを増やすことを検討してください**
+
+キャッシュサイズ不足で生じる問題。Tomcat7では表示されなかった警告がTomcat8で表示されるようになった。
+キャッシュサイズを増やして対応する。設定は`TOMCAT_DIR/conf/context.xml`に下記を追加すれば良い。
+
+```xml
+<Resources cacheMaxSize="51200" />
+```
+
 ### Windows
 
 **インストール**
@@ -24,3 +33,7 @@ set JAVA_OPTS=%JAVA_OPTS% ^
 -Dhttp.nonProxyHosts=localhost ^
 -DsocksProxyHost=[hostname] ^
 ```
+
+**Tomcatのコンソールに表示されるログが文字化けする問題**
+
+おおかたエンコードがUTF-8とかSJISかの違い。`TOMCAT_DIR/conf/logging.properties`の`java.util.logging.ConsoleHandler.encoding = SJIS`のようにして設定できる。（TomcatのデフォルトはUTF-8で、windows側のデフォルトがSJISになっていて食い違うことが多い）
