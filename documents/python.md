@@ -1,5 +1,22 @@
 ## Python
 
+### SSH
+
+
+paramikoでコマンドを実行する
+```python
+import paramiko
+
+ssh = paramiko.SSHClient()
+ssh.connect(host, port, user)
+stdin, stdout, _ = ssh.exec_command(COMMAND)
+
+stdin.write('m\n') # これは対話的な処理
+stdin.flush()
+
+output = stdout.readline()
+```
+
 ### range
 - 3系の`range()`は2系の`xrange()`、2系の`range()`は3系には存在しない
 
