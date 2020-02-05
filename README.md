@@ -18,6 +18,6 @@
   - [Nginx](documents/nginx.md)
   - [Apache](documents/apache.md)
   - [Tomcat](documents/tomcat.md)
-  - [Linux](documnets/linux.md)
+  - [Linux](documts/linux.md)
 - Misc
   - [Ad Tech](documents/adtech.md)
