@@ -21,3 +21,4 @@
   - [Linux](documts/linux.md)
 - Misc
   - [Ad Tech](documents/adtech.md)
+  - [misc](documents/misc.md)
