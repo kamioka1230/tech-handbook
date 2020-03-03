@@ -1,7 +1,6 @@
-TOC
 - [セットアップ](#セットアップ)
 - [ユーザ](#ユーザ)
-- [権限]（#権限)
+- [権限](#権限)
 - [ダンプ](#ダンプ)
 - [トラブルシューティング](#トラブルシューティング)
 
@@ -40,11 +39,28 @@ mysql -uroot
 
 ## ユーザ
 
-`CREATE USER 'uwl'@'localhost' IDENTIFIED WITH mysql_native_password BY 'uwl'`
+作成
+```
+CREATE USER 'uwl'@'localhost' IDENTIFIED WITH mysql_native_password BY 'uwl'
+```
+
+削除
+```
+DROP USER 'user';
+```
 
 ## 権限
 
-`GRANT ALL ON db_name.* TO user;`
+全付与
+```
+GRANT ALL ON db_name.* TO user;
+```
+
+### エラー
+```
+ERROR 1410 (42000): You are not allowed to create a user with GRANT
+```
+ユーザ作成ミスってないか確認する。
 
 ## ダンプ
 https://qiita.com/PlanetMeron/items/3a41e14607a65bc9b60c
