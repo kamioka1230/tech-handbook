@@ -1,5 +1,7 @@
 TOC
 - [セットアップ](#セットアップ)
+- [ユーザ](#ユーザ)
+- [権限]（#権限)
 - [ダンプ](#ダンプ)
 - [トラブルシューティング](#トラブルシューティング)
 
@@ -35,6 +37,14 @@ mysql.server restart
 #ログイン
 mysql -uroot
 ```
+
+## ユーザ
+
+`CREATE USER 'uwl'@'localhost' IDENTIFIED WITH mysql_native_password BY 'uwl'`
+
+## 権限
+
+`GRANT ALL ON db_name.* TO user;`
 
 ## ダンプ
 https://qiita.com/PlanetMeron/items/3a41e14607a65bc9b60c
