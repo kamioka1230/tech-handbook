@@ -18,7 +18,9 @@
   - [Nginx](documents/nginx.md)
   - [Apache](documents/apache.md)
   - [Tomcat](documents/tomcat.md)
-  - [Linux](documts/linux.md)
+  - [Linux](documents/linux.md)
+  - [MySQL](documents/mysql.md)
+  - [PostgreSQL](documents/psql.md)
 - Misc
   - [Ad Tech](documents/adtech.md)
   - [misc](documents/misc.md)
