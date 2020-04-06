@@ -21,6 +21,13 @@ Host app
   ProxyCommand ssh -W %h:%p fumidai
 ```
 
+ssh接続時の初回ログインの警告メッセージを出さない方法
+
+```bash
+Host *
+StrictHostKeyChecking no
+```
+
 ### password
 
 `brew install pwgen` でインストールして使う。
