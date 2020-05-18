@@ -51,6 +51,7 @@ npm uninstall <package>
 
 ### 参考
 - https://qiita.com/righteous/items/e5448cb2e7e11ab7d477
+- [フロントエンド開発の３ステップ（npmことはじめ）](https://qiita.com/hashrock/items/15f4a4961183cfbb2658)
 
 ## nodebrew
 複数バージョンのnodeを一元管理するできる。
