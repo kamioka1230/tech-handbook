@@ -7,9 +7,7 @@
 - Frameworks/Libraries
   - [Django](documents/django.md)
 - Server-side JavaScript
-  - Node.js
-  - npm
-  - nodebrew
+  - [Node.js](documents/node.md)
   - [Vue.js](documents/vue.md)
   - [Nuxt.js](documents/nuxtjs.md)
   - React.js
