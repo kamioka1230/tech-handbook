@@ -8,6 +8,7 @@
   - [Django](documents/django.md)
 - Server-side JavaScript
   - [Node.js](documents/node.md)
+  - [Express.js](documents/expressjs.md)
   - [Vue.js](documents/vue.md)
   - [Nuxt.js](documents/nuxtjs.md)
   - React.js
@@ -20,6 +21,7 @@
   - [Java](documents/java.md)
   - [JavaScript](documents/js.md)
   - [HTML](documents/html.md)
+    - [Pug](documents/pug.md)
   - [CSS](documents/css.md)
 - Middleware
   - [Nginx](documents/nginx.md)
