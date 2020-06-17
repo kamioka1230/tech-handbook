@@ -9,6 +9,7 @@
 - Server-side JavaScript
   - [Node.js](documents/node.md)
   - [Express.js](documents/expressjs.md)
+  - [Sequelize.js](documents/sequelize.md)
   - [Vue.js](documents/vue.md)
   - [Nuxt.js](documents/nuxtjs.md)
   - React.js
